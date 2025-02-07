@@ -55,3 +55,11 @@ TTY устройства делятся на 3 типа:
 + В то же время PTM и PTS постоянно обмениваются информацией друг с другом: все, что приходит в PTM, появляется и в PTS, и наоборот, все, что приходит в PTS, отправляется в PTM.
 
 Нашел пару схем, наглядно объясняющих разницу в работе TTY и PTY:
+ ![TTY](TTY_work.png)
+ ![PTY](PTY_work.png)
+
+## Полезные ссылки
+1. [https://habr.com/ru/articles/460257/](https://habr.com/ru/articles/460257/) - Основная статья с полным описанием работы терминала на русском и объяснения как работает функция printf "в железе"
+2. [https://dzen.ru/a/YGM9M_VxZTl-lnxc](https://dzen.ru/a/YGM9M_VxZTl-lnxc) - Нарисованная кем-то схема работы всей системы PTY, по статье выше
+3. [https://dmilvdv.narod.ru/Translate/LDD3/ldd_small_tty_driver.html](https://dmilvdv.narod.ru/Translate/LDD3/ldd_small_tty_driver.html) - Самописный TTY-драйвер
+4. [https://unix.stackexchange.com/questions/117981/what-are-the-responsibilities-of-each-pseudo-terminal-pty-component-software](https://unix.stackexchange.com/questions/117981/what-are-the-responsibilities-of-each-pseudo-terminal-pty-component-software) - Обсуждение на англоязычном форуме работы PTY. Содержит полезное описание и картинки
